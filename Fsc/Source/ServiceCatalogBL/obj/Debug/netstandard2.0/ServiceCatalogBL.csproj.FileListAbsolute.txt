@@ -1,0 +1,12 @@
+C:\repos\Service Catalog\Trunk\ServiceCatalogBL\bin\Debug\netstandard2.0\ServiceCatalogBL.deps.json
+C:\repos\Service Catalog\Trunk\ServiceCatalogBL\bin\Debug\netstandard2.0\ServiceCatalogBL.dll
+C:\repos\Service Catalog\Trunk\ServiceCatalogBL\bin\Debug\netstandard2.0\ServiceCatalogBL.pdb
+C:\repos\Service Catalog\Trunk\ServiceCatalogBL\bin\Debug\netstandard2.0\CommonCatalogBL_FSC.dll
+C:\repos\Service Catalog\Trunk\ServiceCatalogBL\bin\Debug\netstandard2.0\CommonCatalogBL_FSC.pdb
+C:\repos\Service Catalog\Trunk\ServiceCatalogBL\obj\Debug\netstandard2.0\ServiceCatalogBL.csprojAssemblyReference.cache
+C:\repos\Service Catalog\Trunk\ServiceCatalogBL\obj\Debug\netstandard2.0\ServiceCatalogBL.AssemblyInfoInputs.cache
+C:\repos\Service Catalog\Trunk\ServiceCatalogBL\obj\Debug\netstandard2.0\ServiceCatalogBL.AssemblyInfo.cs
+C:\repos\Service Catalog\Trunk\ServiceCatalogBL\obj\Debug\netstandard2.0\ServiceCatalogBL.csproj.CopyComplete
+C:\repos\Service Catalog\Trunk\ServiceCatalogBL\obj\Debug\netstandard2.0\ServiceCatalogBL.dll
+C:\repos\Service Catalog\Trunk\ServiceCatalogBL\obj\Debug\netstandard2.0\ServiceCatalogBL.pdb
+C:\repos\Service Catalog\Trunk\ServiceCatalogBL\obj\Debug\netstandard2.0\ServiceCatalogBL.csproj.CoreCompileInputs.cache

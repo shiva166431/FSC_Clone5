@@ -1,0 +1,85 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\FSC_Clone4\\FSC-ServiceCatalogTest\\Fsc\\Source\\ServiceCatalogBL\\ServiceCatalogBL.csproj": {}
+  },
+  "projects": {
+    "C:\\FSC_Clone4\\FSC-ServiceCatalogTest\\Fsc\\Source\\ServiceCatalogBL\\ServiceCatalogBL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\FSC_Clone4\\FSC-ServiceCatalogTest\\Fsc\\Source\\ServiceCatalogBL\\ServiceCatalogBL.csproj",
+        "projectName": "ServiceCatalogBL",
+        "projectPath": "C:\\FSC_Clone4\\FSC-ServiceCatalogTest\\Fsc\\Source\\ServiceCatalogBL\\ServiceCatalogBL.csproj",
+        "packagesPath": "C:\\Users\\AB78808\\.nuget\\packages\\",
+        "outputPath": "C:\\FSC_Clone4\\FSC-ServiceCatalogTest\\Fsc\\Source\\ServiceCatalogBL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\AB78808\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {
+              "C:\\FSC_Clone4\\FSC-ServiceCatalogTest\\Fsc\\Source\\CommonCatalogBL\\CommonCatalogBL.csproj": {
+                "projectPath": "C:\\FSC_Clone4\\FSC-ServiceCatalogTest\\Fsc\\Source\\CommonCatalogBL\\CommonCatalogBL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[1.50.5, )"
+            },
+            "Microsoft.CSharp": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Oracle.ManagedDataAccess.Core": {
+              "target": "Package",
+              "version": "[2.18.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

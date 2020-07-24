@@ -1,0 +1,37 @@
+{
+  "ConnectionStrings": {
+    "iM26WrfdY/xtVK89UYFZvVZMgBIb+0ZnNZMdarwAXsn4dEufRBaRcK2huArO/cvW": "aGc+DSrp8P3QFoQTKl2WqTrwlXUX12IZtX0hg5bpoUXHyWpFvToxSujhjBumQRuNIT5pdMuyfotL+bfGzs/pTPGXXVztkUvC2utCmZqKPfxH8EWDo5gHUNjQyXyG2N124EQgz/kILaqzZRjXWd+OmfiLGGw3Y9tdxqFVa21fB7i7bUofI5yEvRZXXECBHdkXpG8CDRxtVBrQ5llVAQFDW0cZRvAY66H6tDPKY1zVemedvnYrK0odc7vydY/RfUDcYW9rL/jcNWQhFRb3Kt2vxWdYGocLM/qR90kAvSoTM9DowbLoKGhlo8gZOfLruAOPyU4Pjc6LbcECrJjrULsKCwCJ34l0M2Vy1JayHnLYmQKDuIrNd/uF5DRp9c5dRncLX361n+ihigo7gkFw8AoFUfEzTIaXICLw8qboCAaNOpV+T/S7wNYBBcxzSWoKtO0vqIMf9p/K3mLyGoHBuHKhDPrvVUm1KEsazWhIbSOIdMpMUIjenuasqon4+BJsKJQA5dqYJ3hIW31+AoeQaUh+Fb13na8V7VAAfE2Gm/2Qdxlv6F4LjJsY3v9rcAHKi7OLurXLvvVREuEwW2n9uZ1HAteWtpQrtfm/NRZPsgtpTew="
+  },
+  "FscSettings": {
+    "Cache": {
+      "AddressDuration": "60",
+      "DefaultDuration": "60",
+      "DefaultSize": "1000"
+    },
+    "CouchBase": {
+      "Servers": [
+        "http://couchbaseidc01-dev.idc1.level3.com:8091",
+        "http://couchbaseidc02-dev.idc1.level3.com:8091",
+        "http://couchbaseidc03-dev.idc1.level3.com:8091"
+      ],
+      "BucketName": "standard",
+      "BucketPassword": "Cnf0hzzPPIwg",
+      "MaxConnectionSize": "5",
+      "MinConnectionSize": "1",
+      "KeyPrefix": "6706FscD1",
+      "ExpirationMinutes": "2"
+    },
+    "Urls": {
+      "GlmHost": "http://glmenv1/GLMSWebservices",
+      "PriceConversionUrl": "http://revenueservices.corp.global.level3.com/Finance/GL/ConversionRate/",
+      "FSCMediation": "https://api-dev1.test.intranet/ServiceDelivery/v1/Order"
+    },
+    "SendEmails": "false"
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Warning"
+    }
+  },
+  "AllowedHosts": "*"
+}

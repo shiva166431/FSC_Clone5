@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+
+    <Configurations>Debug;Release;Dev1;Dev2;Dev3;Dev4;Env1;Env2;Env3;Env4;Int1;Prod;Test</Configurations>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="..\ServiceCatalogWepApi\appsettings.json" Link="appsettings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="3.1.4" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.6.1" />
+    <PackageReference Include="MSTest.TestAdapter" Version="2.1.1" />
+    <PackageReference Include="MSTest.TestFramework" Version="2.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ServiceCatalogBL\ServiceCatalogBL.csproj" />
+    <ProjectReference Include="..\ServiceCatalogWepApi\ServiceCatalogWepApi.csproj" />
+  </ItemGroup>
+
+  <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
+    <Exec Command="&quot;$(ProjectDir)..\copyifnewer.bat&quot; &quot;$(ProjectDir)..\Deployment\Settings\$(ConfigurationName)settings.json&quot; &quot;$(ProjectDir)appsettings.json&quot;" />
+  </Target>
+
+</Project>
